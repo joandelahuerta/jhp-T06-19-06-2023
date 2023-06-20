@@ -1,0 +1,54 @@
+body{
+    background-image: url(../img/pxfuel.com.jpg);
+    background-size: cover;
+}
+.outsidetext{
+    color: white;
+}
+.maincontainer{
+    position: flex;
+    max-width: 670px;
+}
+.loginformcontainer{
+    max-width: 670px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.loginformcontainer2{
+    max-width: 670px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E1E1E1;
+    padding: 10px;
+}
+.lockimg{
+    max-width: 50px;
+    max-height: 50px;
+    margin: 10px;
+}
+.loginbutton{
+    width: 200px;
+    background-color: #4ADDC1;
+    border-radius: 5px;
+}
+.loginbutton:hover {
+    background-color: #ffffff;
+}
+.socialtext{
+    margin-top: 20px;
+}
+.socialbutton{
+    background-color: #000000;
+    border-radius: 5px;
+    max-height: 40px;
+    min-width: 130px;
+    color: white;
+    border-color: grey;
+}
+.socialimg{
+    max-width: 20px;
+    filter: brightness(0) invert(1);
+}
