@@ -16,6 +16,7 @@ body{
     background-color: #FFFFFF;
     padding-top: 40px;
     padding-bottom: 40px;
+    border-radius: 10px 10px 0px 0px;
 }
 .loginformcontainer2{
     max-width: 670px;
@@ -23,6 +24,7 @@ body{
     align-items: center;
     background-color: #E1E1E1;
     padding: 10px;
+    border-radius: 0px 0px 10px 10px;
 }
 .lockimg{
     max-width: 50px;

@@ -1,0 +1,22 @@
+.navbar1custom{
+    background-color: #F0F0F0;
+}
+.navbar2custom{
+    background-color: #2980B9;
+}
+.navlogos{
+    width: 20px;
+    padding-bottom: 4px;
+}
+.usericon{
+    width: 30px;
+}
+.blacklogos{
+    filter: invert(100%);
+    width: 20px;
+}
+
+.navbar.second-navbar {
+margin-top: 56px;
+z-index:1
+}

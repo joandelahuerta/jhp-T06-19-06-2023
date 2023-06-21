@@ -1,26 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio02</title>
+    <title>Ejercicio03</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/estilo.css">
 </head>
+
 <body>
-    <div class="container-fluid position-absolute top-50 start-50 translate-middle maincontainer">
-        <div class="row">
-            <div class="col-2">
-                <p class="title">Contact us</p>
+    <header class="prueba">
+        <!-- Barra superior -->
+        <nav class="navbar navbar-expand-md navbar-light navbar1custom">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Zona izquierda -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <p class="nav-link active" aria-current="page" href="#">
+                                <img src="./img/phone.png" class="img-fluid blacklogos"> +84123 456 999
+                            </p>
+                        </li>
+                        <li class="nav-item">
+                            <p class="nav-link active" href="#">
+                                <img src="./img/contact.png" class="img-fluid blacklogos"> name@gmail.com
+                            </p>
+                        </li>
+                        <li class="nav-item">
+                            <p class="nav-link active" href="#">
+                                <img src="./img/map.png" class="img-fluid blacklogos"> 123 street CH city
+                            </p>
+                        </li>
+                    </ul>
+                    <!-- Zona derecha -->
+                    <ul class="navbar-nav d-flex flex-row me-1 mb-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-comments me-1"></i>Sign Up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-user-alt me-1"></i>Login</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-2">
-                <p class="title">Contact us</p>
+        </nav>
+        <!-- Barra inferior -->
+        <nav class="navbar second-navbar fixed-top navbar-expand-xl navbar2custom">
+            <div class="container-fluid">
+                <!-- Zona izquierda -->
+                <a class="navbar-brand text-white" href="#">uthemes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">
+                                <img src="./img/menu.png" class="img-fluid navlogos">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">
+                                <img src="./img/home.png" class="img-fluid navlogos"> Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">
+                                <img src="./img/mail.png" class="img-fluid navlogos"> About
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="./img/services.png" class="img-fluid navlogos"> Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Watching new movies</a></li>
+                                <li><a class="dropdown-item" href="#">Listening music</a></li>
+                                <li><a class="dropdown-item" href="#">Play new games</a></li>
+                                <li><a class="dropdown-item" href="#">Learn new design</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">
+                                <img src="./img/graduation.png" class="img-fluid navlogos"> Portfolio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">
+                                <img src="./img/contact.png" class="img-fluid navlogos"> Contact
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Mega</a>
+                        </li>
+                    </ul>
+                    <!-- Zona derecha -->
+                    <ul class="navbar-nav d-flex flex-row me-1">
+                        <li class="nav-item">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            </form>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#"><i class="fas fa-envelope me-1"></i>
+                                <img src="./img/facebook.png" class="img-fluid navlogos">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#"><i class="fas fa-envelope me-1"></i>
+                                <img src="./img/twitter.png" class="img-fluid navlogos">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#"><i class="fas fa-envelope me-1"></i>
+                                <img src="./img/google.png" class="img-fluid navlogos">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#"><i class="fas fa-comments me-1"></i>
+                                <img src="./img/youtube.png" class="img-fluid navlogos">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#"><i class="fas fa-user-alt me-1"></i>
+                                <img src="./img/user.png" class="img-fluid usericon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-2">
-                <p class="title">Contact us</p>
-            </div>
-        </div>
-    </div>
+        </nav>
+    </header>
 </body>
 </html>
