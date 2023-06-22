@@ -5,6 +5,7 @@ body{
 .outsidetext{
     color: white;
 }
+/* Containers */
 .maincontainer{
     position: flex;
     max-width: 670px;
@@ -39,6 +40,7 @@ body{
 .loginbutton:hover {
     background-color: #ffffff;
 }
+/* Botones sociales */
 .socialtext{
     margin-top: 20px;
 }
